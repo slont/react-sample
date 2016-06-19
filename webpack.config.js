@@ -3,8 +3,9 @@ var path = require('path');
 module.exports = {
   context: __dirname + '/src',
   entry: {
-    'index': './views/entry.js',
-    'top/index': './views/top/entry.js'
+    'top/index': './views/top/index.js',
+    'page1/index': './views/page1/index.js',
+    'page2/index': './views/page2/index.js'
   },
   output: {
     path: __dirname + '/dist',

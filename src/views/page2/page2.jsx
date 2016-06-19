@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-class Top extends React.Component {
+class Page2 extends React.Component {
   render() {
     return (
-        <h1>Top</h1>
+        <h1>Page2</h1>
     )
   }
 }
 
 ReactDOM.render(
-  <Top />, document.getElementById('container')
+  <Page2 />, document.getElementById('container')
 );
